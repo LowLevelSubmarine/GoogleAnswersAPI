@@ -1,0 +1,24 @@
+.gradle
+/build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+
+# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle/wrapper/gradle-wrapper.properties
+
+\.idea/
+
+src/main/java/com/tronic/bot/TestConfig.java
+
+out/
+!out/production/classes/log4j2.xml
+log4j2.xml
+tronic.cfg
+tronic.cfg
