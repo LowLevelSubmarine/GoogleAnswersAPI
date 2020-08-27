@@ -17,7 +17,7 @@ public class RestAction<T> {
     }
 
     public void queue(CompleteHook<T> completeHook, ExceptionHook exceptionHook) {
-        new Runner<>(this.action, completeHook);
+        new Runner<>(this.action, completeHook, exceptionHook);
     }
 
     private static class Runner<T> extends Thread {
